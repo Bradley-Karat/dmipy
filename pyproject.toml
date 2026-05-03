@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dmipy"
+version = "1.0.0"
+description = "Diffusion Microstructure Imaging in Python"
+authors = ["Bradley-Karat <bkarat@uwo.ca>"]
+readme = "README.md"
+packages = [{ include = "dmipy" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+numpy = ">=1.13"
+scipy = ">=1.8.0"
+dipy = "*"
+cvxpy = "*"
+boto = "*"
+pathlib = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
