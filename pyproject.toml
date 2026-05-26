@@ -13,7 +13,7 @@ scipy = ">=1.8.0"
 dipy = "*"
 cvxpy = "*"
 boto = "*"
-pathlib = "*"
+pathlib = ">=1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
