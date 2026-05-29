@@ -14,7 +14,7 @@ dipy = "*"
 cvxpy = "*"
 boto = "*"
 pathlib = ">=1.0.0"
-setuptools = "*"
+setuptools = "<82.0"
 
 [build-system]
 requires = ["poetry-core"]
